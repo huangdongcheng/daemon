@@ -1,0 +1,24 @@
+{
+    "name": "huangdongcheng/daemon",
+    "description": "A lib to manage PHP daemons",
+    "type": "library",
+    "require": {
+        "zetacomponents/database": "1.5.*"
+    },
+    "autoload": {
+        "files": [
+            "library/Foundation/helpers.php"
+        ],
+        "psr-4": {
+            "Merchant\\": "library/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huangdongcheng",
+            "email": "934313141@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
